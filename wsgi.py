@@ -1,4 +1,6 @@
 from app import app
 
-if __name__ == '__main__':
-    app.run()
+# Vercel requires the application object to be exposed as 'app'
+# Do NOT include app.run() here as it causes the 'FUNCTION_INVOCATION_FAILED' crash.
+app = app
+
