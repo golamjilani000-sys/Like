@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 # ================= CONFIGURATION =================
 # Yahan apna Telegram Bot Token daalo
-BOT_TOKEN = "APNA_BOT_TOKEN_YAHAN_DAALO" 
+BOT_TOKEN = "8724853412:AAHgRcU1xlEVUNG-SNKVHcmQvj7goDWRIXk" 
 bot = telebot.TeleBot(BOT_TOKEN, threaded=False)
 
 # Crypto Keys (Same as your file)
